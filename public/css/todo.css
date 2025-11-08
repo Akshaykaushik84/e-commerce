@@ -1,0 +1,169 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #006d77; /* navy teal */
+  color: white;
+  padding: 12px 24px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+#logout{
+  background-color: white; /* mint green */
+  color: #43b395;;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+#cardview {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #006d77; /* teal navy */
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  width: 180px;
+  font-size: 14px;
+  background: #f9fbfc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #008891; /* teal primary */
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005f6b; /* darker teal */
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  width: 240px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card p {
+  margin: 6px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+.card input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  border: 1px solid #cfd8dc;
+  background: #f9fbfc;
+  font-size: 13px;
+}
+
+.card button {
+  margin: 5px 4px 0 0;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+/* Button Variants */
+.edit-btn {
+  background-color: #ffd166; /* sunflower yellow */
+  color: #333;
+}
+
+.delete-btn {
+  background-color: #ef476f; /* soft red pink */
+  color: white;
+}
+
+.save-btn {
+  background-color: #06d6a0; /* mint green */
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #6c757d; /* muted grey */
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #fcbf49;
+}
+
+.delete-btn:hover {
+  background-color: #d63447;
+}
+
+.save-btn:hover {
+  background-color: #05c191;
+}
+
+.cancel-btn:hover {
+  background-color: #5a6268;
+}

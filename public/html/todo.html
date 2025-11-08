@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Item Manager</title>
+  <link rel="stylesheet" href="../css/todo.css">
+</head>
+<body>
+
+<div id="header">
+  <div>
+    <h1>Available Items</h1>
+    <p id="welcome-msg" style="margin: 5px 0 0; font-size: 16px;"></p>
+  </div>
+  <div>
+  <button id="logout">LogOut</button>
+  </div>
+  
+</div>
+
+  <div class="container">
+    <h2>Item Manager</h2>
+
+    <form id="form" style="display: none;">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="number" id="price" placeholder="Price" required />
+      <input type="number" id="quantity" placeholder="Quantity" required />
+      <input type="text" id="des" placeholder="Description" />
+    </form>
+
+    <button id="submit">Add</button>
+
+    <div id="cards-container" class="cards-container"></div>
+  </div>
+
+  <script src="../js/todo.js"></script>
+</body>
+</html>

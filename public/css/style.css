@@ -1,0 +1,112 @@
+/* ===== Base Styles ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #008891;
+  margin-bottom: 10px;
+}
+
+/* ===== Tabs Buttons ===== */
+#tabs {
+  margin-bottom: 20px;
+}
+
+#tabs button {
+  padding: 10px 24px;
+  margin: 0 8px;
+  background-color: #06d6a0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+#tabs button:hover {
+  background-color: #05c191;
+}
+
+/* ===== Form Container ===== */
+form {
+  display: inline-block;
+  text-align: left;
+  background-color: #ffffff;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  width: 320px;
+}
+
+/* ===== Input Fields ===== */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-color: #f9fbfc;
+}
+
+/* ===== Buttons ===== */
+button[type="submit"],
+button[type="button"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #06d6a0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #05c191;
+}
+
+/* ===== OTP Input Field ===== */
+#otp {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-color: #f9fbfc;
+}
+
+/* ===== Checkbox Label ===== */
+label {
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* ===== Responsive Form ===== */
+@media (max-width: 500px) {
+  form {
+    width: 90%;
+    padding: 20px;
+  }
+
+  #tabs button {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+}

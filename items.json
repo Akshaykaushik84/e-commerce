@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Car",
+    "price": "200",
+    "quantity": 10,
+    "description": "Hlo"
+  },
+  {
+    "name": "Bus",
+    "price": "1000",
+    "quantity": 4,
+    "description": "HLo"
+  },
+  {
+    "name": "Truck",
+    "price": "300",
+    "quantity": 6,
+    "description": "hlo"
+  },
+  {
+    "name": "h",
+    "price": "45",
+    "quantity": 78,
+    "description": "88"
+  }
+]

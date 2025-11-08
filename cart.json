@@ -1,0 +1,18 @@
+{
+  "Govind": [],
+  "shivam": [
+    {
+      "name": "Truck",
+      "price": "300",
+      "quantity": 1
+    }
+  ],
+  "Akshay Kaushik": [
+    {
+      "name": "Truck",
+      "price": "300",
+      "quantity": 3,
+      "stock": 6
+    }
+  ]
+}

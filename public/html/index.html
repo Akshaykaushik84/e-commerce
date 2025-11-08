@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login & Signup with OTP</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+
+  <!-- ===== Header Tabs ===== -->
+  <div id="tabs">
+    <button id="login">Login</button>
+    <button id="sign">Signup</button>
+  </div>
+
+  <!-- ===== Login Page ===== -->
+  <div id="loginpage" style="display: block;">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username" required /><br>
+      <input type="password" id="password" placeholder="Password" required /><br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <!-- ===== Signup Page ===== -->
+  <div id="signup" style="display: none;">
+    <h2>Signup</h2>
+    <form id="signupForm">
+      <input type="text" id="newUsername" placeholder="Username" required /><br>
+      <input type="email" id="email" placeholder="Email" required /><br>
+      <input type="password" id="newPassword" placeholder="Password" required /><br>
+
+      <!-- ===== OTP Section ===== -->
+      <button type="button" id="send-otp">Send OTP</button><br>
+      <input type="text" id="otp" placeholder="Enter OTP" style="display:none;" /><br>
+
+      <label>
+        <input type="checkbox" id="admin" /> Register as Admin
+      </label><br>
+
+      <button type="submit" id="signup-btn" disabled>Signup</button>
+    </form>
+  </div>
+  <script src="../js/script.js"></script>
+</body>
+</html>
